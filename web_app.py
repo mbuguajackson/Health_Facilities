@@ -71,7 +71,7 @@ def create_map(df, selected_county):
         folium.Marker(
             location=[row['Latitude'], row['Longitude']],
             tooltip=row['Facility_Name'],
-            icon=folium.Icon(color='red', icon='info-sign'),
+            icon=folium.Icon(color='red', icon='plus-square'),
         ).add_to(marker_cluster).add_child(folium.Popup(popup_content, max_width=400))
 
     # Add Google Maps Basemap
