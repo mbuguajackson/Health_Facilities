@@ -1,3 +1,11 @@
+# Hide Streamlit branding and footer
+hide_footer = """
+    <style>
+        footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_footer, unsafe_allow_html=True)
+
 # Import necessary libraries
 import streamlit as st
 import pandas as pd
