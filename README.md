@@ -12,13 +12,15 @@ This is a **Streamlit** web application that visualizes health facilities across
 
 ## 🔗 View the App  
 
-[**Live Demo**]([https://your-app-link.com](https://health-facilities-kenya.streamlit.app/)) 
+[**Live Demo**]([https://health-facilities-kenya.streamlit.app/]) 
 
 
 ## 🛠️ Installation
 
-1. **Clone the repository**  
-2. **Install the dependancies in the "requirements.txt" file**
+1. **Clone the repository**
+   ```sh
+   git clone https://personalToken@github.com/your-username/health-facilities-kenya.git
+3. **Install the dependancies in the "requirements.txt" file**
    ```sh
    pip install -r requirements.txt
 
