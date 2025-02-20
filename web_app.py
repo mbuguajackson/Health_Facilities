@@ -65,7 +65,7 @@ def create_map(df, selected_county):
     for _, row in df.iterrows():
         popup_content = f"""
         <h4>{row['Facility_Name']}</h4>
-        <b>level:</b> {row['Facility_Type']}<br>
+        <b>Faciity_Type:</b> {row['Facility_Type']}<br>
         <b>County:</b> {row['County']}<br>
         <b>Sub-County:</b> {row['Sub_County']}<br>
         <b>Location:</b> {row['Location']}<br>
