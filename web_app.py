@@ -1,11 +1,3 @@
-# Hide Streamlit branding and footer
-hide_footer = """
-    <style>
-        footer {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide_footer, unsafe_allow_html=True)
-
 # Import necessary libraries
 import streamlit as st
 import pandas as pd
@@ -16,6 +8,13 @@ from streamlit_folium import folium_static
 
 # Set page config
 st.set_page_config(page_title="Health Facilities in Kenya", page_icon="🌎", layout="wide")
+# Hide Streamlit branding and footer
+hide_footer = """
+    <style>
+        footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_footer, unsafe_allow_html=True)
 
 # Load Kenyan county boundaries shapefile
 @st.cache_data
