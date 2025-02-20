@@ -19,7 +19,7 @@ def load_shapefile():
 kenya_gdf = load_shapefile()
 
 # Load health facilities data
-df = pd.read_excel('health_facilities_data_updated.xlsx')
+df = pd.read_excel('health_facilities_data.xlsx')
 
 # Sidebar logo
 st.sidebar.image("logo.png", caption="Health Facilities in Kenya")
