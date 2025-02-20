@@ -12,7 +12,7 @@ This is a **Streamlit** web application that visualizes health facilities across
 
 ## 🔗 View the App  
 
-[**Live Demo**]([https://health-facilities-kenya.streamlit.app/]) 
+[**Live Demo**](https://health-facilities-kenya.streamlit.app/) 
 
 
 ## 🛠️ Installation
