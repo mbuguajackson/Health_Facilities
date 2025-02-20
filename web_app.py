@@ -20,6 +20,8 @@ kenya_gdf = load_shapefile()
 
 # Load health facilities data
 df = pd.read_excel('health_facilities_data_updated.xlsx')
+# Remove rows where Latitude or Longitude is NaN
+df = df.dropna(subset=['Latitude', 'Longitude'])
 
 # Sidebar logo
 st.sidebar.image("logo.png", caption="Health Facilities in Kenya")
